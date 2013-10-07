@@ -69,6 +69,7 @@
 ;; move backward in navigation history like in eclipse
 (global-set-key (kbd "M-[") 'pop-global-mark)
 
+(global-anzu-mode t)
 (require 'github-theme)
 ;; change font
 (set-frame-font "Consolas-14")
